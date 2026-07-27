@@ -62,15 +62,13 @@ Since SmolLM2-135M is a relatively small language model, it still struggles with
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/<repository-name>.git
-cd <repository-name>
+git clone --no-checkout --depth 1 https://github.com/aksaini2003/LLM-Fine-tuning.git
+cd LLM-Fine-tuning
+git sparse-checkout init --cone
+git sparse-checkout set Full_finetuning_on_smol_135m
+git checkout main
 ```
 
-Install the required packages:
-
-```bash
-pip install -r requirements.txt
-```
 
 Open and run:
 
