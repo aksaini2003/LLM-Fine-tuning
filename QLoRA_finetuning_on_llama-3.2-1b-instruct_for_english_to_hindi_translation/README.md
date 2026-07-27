@@ -125,7 +125,7 @@ Loads the fine-tuned LoRA checkpoint (`checkpoint-375`) and runs greedy decoding
 ## Project Structure
 
 ```
-.
+QLoRA_finetuning_on_llama-3.2-1b-instruct_for_english_to_hindi_translation/
 ├── finetuning_llama_3_2_1b_instruct_for_translation_from_english_to_hindi.ipynb
 └── README.md
 ```
