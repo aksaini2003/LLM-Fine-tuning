@@ -18,7 +18,7 @@ Fine-tune Meta's **LLaMA 3.2-1B Instruct** model for news article summarization 
 | Global Steps | 375 |
 | Training Loss | 1.1535 |
 | Mean Token Accuracy | 52.09% |
-| Train Runtime | ~6,622 seconds (~1.84 hours) |
+| Train Runtime | ~(4-5) hours |
 | Platform | Google Colab (GPU) |
 
 ---
